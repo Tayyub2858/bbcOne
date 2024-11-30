@@ -7,10 +7,10 @@ function Description() {
         <>
             <div className="container px-4 sm:px-8 md:px-16 lg:px-24 py-8 mx-auto">
                 <div className="flex flex-wrap w-full mb-8 flex-col items-center text-center">
-                    <p className="lg:w-1/2 w-full leading-relaxed text-black">
+                    <p className="lg:w-1/2 w-full leading-relaxed lg:text-xl text-black">
                         Lorem Ipsum has been the <strong>ever since the 1500s</strong>
                     </p>
-                    <p className="lg:w-1/2 w-full leading-relaxed text-black">
+                    <p className="lg:w-1/2 w-full leading-relaxed lg:text-xl text-black">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
@@ -23,7 +23,7 @@ function Description() {
                     />
                 </div>
                 <div className="h-full text-center mt-8 px-4 sm:px-8">
-                    <p className="mb-8 text-base font-medium">
+                    <p className="mb-8 text-base lg:text-xl font-medium">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.

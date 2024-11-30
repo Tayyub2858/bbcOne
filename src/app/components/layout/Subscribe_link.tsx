@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { Menu } from "@/app/data/Data";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
-import { toast } from "react-toastify"; // Import Toastify
-import "react-toastify/dist/ReactToastify.css"
 import Link from "next/link";
 
 interface SelectedOption {
@@ -24,12 +22,12 @@ const SubscribeLink: React.FC = () => {
     const handleCopy = (): void => {
         navigator.clipboard
             .writeText(predefinedUrl)
-            .then(() => {
-                toast.success("URL copied to clipboard!"); // Show success toast
-            })
+            // .then(() => {
+            //     toast.success("URL copied to clipboard!"); // Show success toast
+            // })
             .catch((err) => {
                 console.error("Failed to copy: ", err);
-                toast.error("Failed to copy URL");
+                // toast.error("Failed to copy URL");
             });
     };
 
@@ -49,7 +47,7 @@ const SubscribeLink: React.FC = () => {
                 <div className="bg-white py-8">
                     {isTextVisible ? (
                         <h2
-                            className="text-black text-center title-font font-bold text-3xl mb-4 cursor-pointer"
+                            className="text-black text-center title-font font-bold px-2 text-lg lg:text-3xl mb-4 cursor-pointer"
                             onClick={handleTextClick}
                         >
                             Subscribe to the link Lorem Ipsum using Link &gt;
@@ -58,7 +56,7 @@ const SubscribeLink: React.FC = () => {
                         <h2
                             className="text-black text-center title-font font-semibold text-xl mb-4 cursor-pointer"
                         >
-                            <p className="lg:w-1/2 text-black text-center mx-auto flex items-center justify-center h-full lg:px-20">
+                            <p className="lg:w-1/2 text-black px-2 text-center mx-auto flex items-center justify-center h-full lg:px-20">
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                             </p>
                             <div className="flex w-full md:justify-center justify-center items-center mt-8">
@@ -79,7 +77,7 @@ const SubscribeLink: React.FC = () => {
                             </div>
 
                             <p className="lg:w-1/2 text-black text-center mx-auto flex items-center justify-center h-full lg:px-20 mt-8">
-                                Still need help? <Link href="https://feeds.ipsum.com/lorem.res" target="_blank" className="text-blue-500">&nbsp;&nbsp;Click here</Link>
+                                Still need help? <Link href="https://feeds.ipsum.com/lorem.res" target="_blank" className="text-blue-500">&nbsp;&nbsp; Click here</Link>
                             </p>
 
 

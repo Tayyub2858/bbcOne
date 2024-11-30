@@ -20,7 +20,7 @@ function Episodes() {
                                 <p className="text-black text-xl font-medium mb-1">{episod.date}</p>
                                 <h4 className="text-black title-font font-bold text-xl mb-1">{episod.episode}</h4>
                                 <h1 className="text-black title-font font-bold text-3xl mb-1">{episod.title}</h1>
-                                <p className="mb-8 text-base font-medium text-justify lg:pr-12">{episod.details}</p>
+                                <p className="mb-8 text-base lg:text-xl font-medium text-justify lg:pr-12">{episod.details}</p>
                                 <button className="flex w-fit h-fit px-4 py-1 text-black border border-black rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-[20px] h-[30px] mr-2" viewBox="0 0 24 24" fill="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 19V5l15 7-15 7z" />
