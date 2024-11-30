@@ -42,11 +42,11 @@ function Hero() {
                         </p>
                         <button
                             className="
-    flex mx-auto mt-12 text-white bg-[#f6c300] border-1 pt-3 pb-3 px-4 
-    focus:outline-none hover:bg-yellow-500 rounded-full font-semibold 
-    text-medium sm:text-lg lg:text-medium 
-    w-auto sm:w-auto lg:w-fit
-  "
+        flex mx-auto mt-12 text-white bg-[#f6c300] border-1 pt-3 pb-3 px-4 
+        focus:outline-none hover:bg-yellow-500 rounded-full font-semibold 
+        w-auto sm:w-auto lg:w-fit
+        text-sm sm:text-base lg:text-lg
+    "
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
