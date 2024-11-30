@@ -23,7 +23,7 @@ function Hero() {
                 <div className="w-[60%] sm:w-[80%] lg:w-[20%] h-[40%] max-w-none mx-4 flex flex-col items-center justify-between">
                     {/* First Image for Desktop */}
                     <img
-                        className="w-full sm:h-[80vh] lg:h-auto sm:w-[90%] flex-shrink-0 hidden lg:block"
+                        className="w-full sm:h-[80vh] lg:w-[100%] lg:h-[95%] sm:w-[90%] flex-shrink-0 hidden lg:block"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/2560px-BBC_One_logo_2021.svg.png"
                         alt="Front Image 2"
                     />
