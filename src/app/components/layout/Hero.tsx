@@ -19,7 +19,7 @@ function Hero() {
                     alt="Front Image 1"
                 />
 
-                
+
                 <div className="w-[60%] sm:w-[80%] lg:w-[20%] h-[40%] max-w-none mx-4 flex flex-col items-center justify-between">
                     {/* Second Image for Desktop */}
                     <img
@@ -40,16 +40,34 @@ function Hero() {
                         <p className="text-white text-center mt-4 font-semibold text-2xl sm:text-3xl lg:text-2xl">
                             Lorem Ipsum Text Here
                         </p>
-                        <button className="flex mx-auto mt-12 text-white bg-[#f6c300] border-1 pt-3 pb-3 px-8 focus:outline-none hover:bg-yellow-500 rounded-full font-semibold text-medium sm:text-lg lg:text-medium">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 19V5l15 7-15 7z" />
+                        <button
+                            className="
+    flex mx-auto mt-12 text-white bg-[#f6c300] border-1 pt-3 pb-3 px-8 
+    focus:outline-none hover:bg-yellow-500 rounded-full font-semibold 
+    text-medium sm:text-lg lg:text-medium 
+    w-auto sm:w-auto lg:w-fit
+  "
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="w-6 h-6 mr-2"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M6 19V5l15 7-15 7z"
+                                />
                             </svg>
                             START LISTENING
                         </button>
+
                     </div>
                 </div>
             </div>
-        
+
         </>
 
 
