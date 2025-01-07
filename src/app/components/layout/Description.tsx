@@ -14,7 +14,6 @@ function Description() {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
-                {/* Make the image visible on both mobile and desktop */}
                 <div className="w-full h-full flex items-center justify-center ">
                     <img
                         className="w-[95%] sm:h-[40vh] lg:w-[70%] lg:h-[30vh] flex-shrink-0"

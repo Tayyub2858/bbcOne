@@ -12,7 +12,6 @@ function Hero() {
                     backgroundPosition: 'center'
                 }}
             >
-                {/* First Image - Hidden on Mobile */}
                 <img
                     className="w-[30%] h-[70%] max-w-none mx-4 flex-shrink-0 hidden lg:block"
                     src="https://static.vecteezy.com/system/resources/thumbnails/009/384/332/small_2x/old-vintage-book-clipart-design-illustration-free-png.png"
