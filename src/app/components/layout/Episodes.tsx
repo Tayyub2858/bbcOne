@@ -14,7 +14,7 @@ function Episodes() {
                     <div className="p-2 lg:w-full md:w-full w-full">
                         {EpisodesData?.map((episod, index) => (
                             <div
-                                key={episod.key}  
+                                key={episod.key}  // Move key here for each episode item
                                 className="h-fit mb-8 items-center border-gray-200 border lg:px-10 p-6 lg:pl-10 rounded bg-white hover:bg-[#e7e7e7] leading-normal"
                             >
                                 <p className="text-black text-xl font-medium mb-1">{episod.date}</p>
